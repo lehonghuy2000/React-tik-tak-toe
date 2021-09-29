@@ -131,7 +131,7 @@ const App = () => {
           <div>{status}</div>
           <ol>{moves}</ol>
         </div>
-        <button onClick={()=>{modeReverse()}}>Change Order</button>
+        <button onClick={()=>{modeReverse()}}>{!chessState.isOrder ? "Ascending" : "Descending"}</button>
       </div>
     );
   }
