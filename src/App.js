@@ -21,7 +21,7 @@ function calculateWinner(squares) {
   return null;
 }
 
-const Game = () => {
+const App = () => {
     const [chessState, updateState]= useState({
       history: [
         {
@@ -136,4 +136,4 @@ const Game = () => {
     );
   }
 
-  export default Game;
+  export default App;
