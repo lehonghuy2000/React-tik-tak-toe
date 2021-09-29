@@ -29,7 +29,7 @@ const Board = (props) => {
         square.push(renderSquare(i+j));
       }
       board.push(
-        <div className="board-row">
+        <div key={i} className="board-row">
 					{square}
 				</div>
       )
