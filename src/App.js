@@ -113,7 +113,6 @@ const App = () => {
     } else {
       status = "Next player: " + (chessState.xIsNext ? "X" : "O");
     }
-    console.log(current.squares.length)
     if(!winner && chessState.history.slice(0, chessState.stepNumber + 1).length===10 )
     {
       status="Draw";
